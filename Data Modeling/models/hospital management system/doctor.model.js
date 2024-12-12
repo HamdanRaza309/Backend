@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 const doctorSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: [true, 'Doctor name is required'],
+        required: true,
     },
     fee: {
         type: String,
